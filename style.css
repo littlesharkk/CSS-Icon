@@ -64,6 +64,9 @@ height: 70px;
     transform: scale(0);
 }
 
+.navigation ul li.active a .text{
+    transform: scale(1);
+     }
 
 
 
