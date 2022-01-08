@@ -41,7 +41,28 @@ height: 70px;
     text-align: center;
 }
 
+.navigation ul li a .icon{
+    position: relative;
+    line-height: 75px;
+    transition: 0.5s;
+    font-size: 30px;
+}
 
+.navigation ul li.active a .icon{
+    font-size: 20px;
+    transform: translateY(-6px);
+}
+
+.navigation ul li a .text{
+    position: absolute;
+    font-size: 12px;
+    color: #fff;
+    bottom: 20px;
+    font-weight: 400;
+    transition: 0.25s;
+    text-transform: uppercase;
+    transform: scale(0);
+}
 
 
 
